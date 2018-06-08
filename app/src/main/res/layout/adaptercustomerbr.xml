@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+
+    android:weightSum="100">
+
+
+    <TextView
+        android:id="@+id/eNamaCust"
+
+        android:textSize="15dp"
+        android:text="Nama Customer"
+        android:textAlignment="textStart"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="33.3"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70.6">
+
+        <TextView
+            android:id="@+id/eKodeCust"
+            android:text="No Telp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/eAlamat"
+            android:text="No Fax"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+</LinearLayout>
